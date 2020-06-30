@@ -19,8 +19,7 @@ h3{
     padding:2%;
 }
 .head-text img{
-    width: 100%;
-    
+    width: 100%;   
 }
 .top-banner{
     background-repeat: no-repeat;
@@ -33,9 +32,7 @@ h3{
 .button-link{
     color: black;
     background-color: rgb(196, 137, 29)
-    text-decoration: none;
-    
-    
+    text-decoration: none;  
 }
 .head-text a{
     padding: 5px;
@@ -49,24 +46,15 @@ h3{
     width: 35%;
     margin-left: 1%;
 }
-
-    
-
 .dreamAreatext{
     width: 40%;
     float: right;
     margin:5%;
-    padding:5%;
-    
+    padding:5%;  
 }
 .dreamArea{
-    height: 700px;
-    
+    height: 700px;  
 }
-
- 
-    
-
 .dreamArea{
     background-image: url(/dream-bg.png);
     background-repeat: no-repeat;
@@ -88,6 +76,7 @@ h3{
 #experience{
     font-weight: 700;
     font-size: 35px;
+    margin-left: 30px;
 }
 span{
     color: orange;
@@ -96,25 +85,41 @@ span{
 .halfsecond{
     width: 40%;
     float: right;
-    margin-right:100px;
+    margin-right:20px;
     height: 300px;
     padding:2%;
     box-shadow: 10px 10px 40px grey;
     border-radius: 20px;
-    
-    
-   
-   
 }
 .halfone{
     width: 40%;
     float: left;
-    margin-left:100px;
+    margin-left:80px;
     height:300px;
     box-shadow: 10px 10px 40px grey;
     padding:2%;
     border-radius: 20px;
 }
+#amisec{
+    background-image: url(/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,rgb(255, 139, 94),rgb(246, 108, 84));
+    border-image-slice: 1;
+}
+#puchka{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+
+
    
 
 
